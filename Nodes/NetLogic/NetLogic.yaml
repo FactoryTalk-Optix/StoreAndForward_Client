@@ -118,12 +118,10 @@ Children:
       DataType: Boolean
       Value: false
     - Name: ClientId
-      Id: g=231eef3a1c694769cc92d80edbc176ed
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: Connected
-      Id: g=f334efceb6c63b9ececf824079a16291
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
@@ -181,7 +179,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":1,"Namespace":16}
+          Value: "/Types/ObjectTypes/BaseObjectType/NetLogic"
       - Name: StoreTablesTopic
         Type: BaseDataVariableType
         DataType: String
@@ -246,12 +244,12 @@ Children:
       - Name: Store
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"5b5adce7cf8203c8344d817c011b17a9","Namespace":7}
+        Value: "/Objects/StoreAndForward_Client/DataStores/EmbeddedDatabase1"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":1,"Namespace":11}
+          Value: "/Types/ObjectTypes/BaseObjectType/Store"
       - Name: TableNames
         Type: BaseDataVariableType
         DataType: Int32
